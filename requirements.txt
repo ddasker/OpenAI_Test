@@ -1,0 +1,8 @@
+flask>=3.0.0
+flask-socketio>=5.4.0
+eventlet>=0.36.0
+openai>=1.59.0
+python-dotenv>=1.0.1
+python-socketio>=5.11.0
+python-engineio>=4.8.0
+

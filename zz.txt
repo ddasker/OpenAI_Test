@@ -1,0 +1,14 @@
+ python3 -m venv venv
+ source venv/bin/activate
+ python3 -m pip install -r requirements.txt
+ source OPENAI_API_KEY.txt
+ export OPENAI_MODEL="gpt-4o-mini" 
+ python server.py
+
+ source .venv/bin/activate
+ python -m pip install -r requirements.txt
+ pip install "flask>=3.0.0" "flask-socketio>=5.4.0" "eventlet>=0.36.0" "openai>=1.59.0" "python-dotenv>=1.0.1"
+ python3 -m pip install "flask>=3.0.0" "flask-socketio>=5.4.0" "eventlet>=0.36.0" "openai>=1.59.0" "python-dotenv>=1.0.1"
+ python3 server.py
+ source OPENAI_API_KEY.txt
+ python3 server.py
